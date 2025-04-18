@@ -70,7 +70,7 @@ I combined these points to create a simple Python script to calculate the exact 
 ```Python
 c = enc.split(':')[3] if ':' in enc else enc
 cl = len(c)
-pad = (int)((cl / 4) - 36)
+pad = (int)((cl / 4) - 36)⁸
 pad1 = 1 if c[-1] == '=' else 0
 pad2 = 1 if c[-2] == '=' else 0
 pl = (len(c) - 136 - pad - pad1 - pad2)
